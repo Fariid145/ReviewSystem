@@ -1,0 +1,14 @@
+@model Product
+@{ 
+    ViewData["Title"] = "Product Detail";
+}
+
+<ul>
+   
+    <li>Name: @Model.Name</li>
+    <li>Cost Price: @Model.Description </li>
+    <li>Selling Price: @Model.User</li>
+    <li>Created At: @Model.CreatedAt</li>
+  
+</ul>
+  List<Review> Review  = new List<Review>();
